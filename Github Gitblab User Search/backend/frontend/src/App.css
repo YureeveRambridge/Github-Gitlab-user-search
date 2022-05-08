@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  font-size: 1.8em;
+  background-color: burlywood;
+}
+
+a {
+  width: 222px;
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* User profile picture */
+.avatar {
+  max-width: 200px;
+}
+
+/* Background for users repos */
+.userRepo{
+  background-color: navajowhite;
+}
+
+/* Background for users commit */
+.commitDiv{
+  padding: 2%;
+  text-align: center;
+}
+
+/* Repo name back ground */
+.repoName{
+  background-color: aliceblue;
+}
+
+/* Style for list tables */
+.listTable{
+  text-align: center;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+}
+
+/* Media Queries*/
+
+@media only screen and (min-width: 750px) {
+  h1 {
+    padding-top: 20px;
+  }
+
+  .viewRepoDetails{
+    background-color: darkkhaki;
+  }
+
+  /* Loading Icon */
+  .loadingIcon{
+    width: 150px;
+    height: 150px;
+  }
+
+  /* User profile display*/
+
+  .repositoryList {
+    list-style: normal;
+  }
+  .repositoryDisplayList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .repositoryDisplayList span {
+    padding-right: 30px;
+  }
+  /* User profile link */
+  a {
+    width: 100%;
+  }
+}

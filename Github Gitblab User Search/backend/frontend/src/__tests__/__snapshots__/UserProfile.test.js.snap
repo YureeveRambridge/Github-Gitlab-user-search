@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Profile is shown 1`] = `
+<div
+  className="latestRepos"
+>
+  <img
+    alt="userprofilepicture"
+    className="avatar"
+    src="https://avatars.githubusercontent.com/u/1460315?v=4"
+  />
+  <p>
+    <a>
+      <h2>
+        happy
+      </h2>
+    </a>
+  </p>
+  <h3>
+    Latest repositories:
+  </h3>
+  <img
+    alt="loadingIcon"
+    className="loadingIcon"
+    src="https://imgs.search.brave.com/UFRKZlEuTgIy4yfQ2eR6ZG0VL5E7cXsOx3w6ImUVKso/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvcHJl/dmlld3MvMDAxLzgy/Ni8yNDgvbGFyZ2Vf/MngvcHJvZ3Jlc3Mt/bG9hZGluZy1iYXIt/YnVmZmVyaW5nLWRv/d25sb2FkLXVwbG9h/ZC1hbmQtbG9hZGlu/Zy1pY29uLXZlY3Rv/ci5qcGc"
+  />
+</div>
+`;

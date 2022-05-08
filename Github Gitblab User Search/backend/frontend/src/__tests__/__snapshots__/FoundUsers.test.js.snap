@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shows users with searched username from github and gitlab 1`] = `
+<ul>
+  <div
+    className="resultsDiv"
+  >
+    <div
+      className="card"
+      style={
+        Object {
+          "width": "18rem",
+        }
+      }
+    >
+      <img
+        className="card-img-top"
+        src="https://avatars.githubusercontent.com/u/1410106?v=4"
+      />
+      <div
+        className="userCard card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          Github
+        </div>
+        <p
+          className="card-text"
+        >
+          a
+        </p>
+        <button
+          className="viewButton btn btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+          value={
+            Array [
+              "Github",
+              "a",
+            ]
+          }
+        >
+          View User
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="resultsDiv"
+  >
+    <div
+      className="card"
+      style={
+        Object {
+          "width": "18rem",
+        }
+      }
+    >
+      <img
+        className="card-img-top"
+        src="https://gitlab.com/uploads/-/system/user/avatar/584369/avatar.png"
+      />
+      <div
+        className="userCard card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          Gitlab
+        </div>
+        <p
+          className="card-text"
+        >
+          a
+        </p>
+        <button
+          className="viewButton btn btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+          value={
+            Array [
+              "Gitlab",
+              "a",
+            ]
+          }
+        >
+          View User
+        </button>
+      </div>
+    </div>
+  </div>
+</ul>
+`;

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar is shown 1`] = `
+<div>
+  <form
+    className=""
+    onSubmit={[Function]}
+  >
+    <div
+      className="mb-3"
+    >
+      <label
+        className="form-label"
+      >
+        <h4>
+          Finds user's by profile name on Github or/and Gitlab:
+        </h4>
+      </label>
+      <input
+        className="searchBar form-control"
+        onChange={[Function]}
+        placeholder="Enter user profile name"
+        type="text"
+        value=""
+      />
+    </div>
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+</div>
+`;

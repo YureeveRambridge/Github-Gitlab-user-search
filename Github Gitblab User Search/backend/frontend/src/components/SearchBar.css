@@ -1,0 +1,14 @@
+/* Search bar style */
+
+/* Positioning */
+.searchBar{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Search bar background style */
+.searchBarCol{
+  background-color: wheat;
+  padding: 1%;
+}

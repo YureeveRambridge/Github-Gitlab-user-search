@@ -1,0 +1,12 @@
+/* Link colour */
+a {
+    color: green;
+  }
+  a:hover {
+     color: #00F
+}
+
+/* Style for list of repos */
+.latestRepos{
+    padding: 3%;
+}

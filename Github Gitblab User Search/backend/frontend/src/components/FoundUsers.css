@@ -1,0 +1,14 @@
+ /* found users style*/
+
+ /* Positioning of cards */
+.resultsDiv{
+    display: inline-block;
+    margin: 0 35px;
+    padding: 3%;
+}
+
+/* background*/
+.FoundUsersCol{
+    background-color: darksalmon;
+    padding: 1%;
+  }
